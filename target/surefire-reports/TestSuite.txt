@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 128.676 s <<< FAILURE! - in TestSuite
+testCases.TC_002_ViewTimesheet.view_Timesheet[, , , ](2)  Time elapsed: 0.055 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at testCases.TC_002_ViewTimesheet.view_Timesheet(TC_002_ViewTimesheet.java:75)
+
+testCases.TC_001_LoginTC.test_Login[, , , ](2)  Time elapsed: 21.307 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_001_LoginTC.test_Login(TC_001_LoginTC.java:38)
+
